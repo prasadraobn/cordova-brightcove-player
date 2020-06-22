@@ -9,7 +9,9 @@
     <js-module src="www/videoPlayer.js" name="videoPlayer">
         <clobbers target="videoPlayer" />
     </js-module>
-
+    
+    <dependency id="cordova-plugin-add-swift-support" version="4" />
+        
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="BrightcovePlayer">
